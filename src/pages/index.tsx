@@ -2,13 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Board from "@/component/board";
 import Score from "@/component/score";
-import styles from "@/styles/index.css";
+import styles from "@/style/index.module.css";
 
 export default function Home() {
     return (
         <div className={styles.twenty48}>
             <Head>
-                <title>Play Game 2048</title>
+                <title>2048</title>
                 <meta name="description" content="2048 game built in NextJS and TypeScript." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="favicon.ico" />
@@ -29,7 +29,7 @@ export default function Home() {
             <footer>
                 <div className={styles.socials}>
                     <a
-                        href="https://github.com/mateuszsokola/2048-in-react"
+                        href="https://github.com/hakamraza/nextjs-2048-game"
                         target="_blank"
                         rel="noopener"
                     >

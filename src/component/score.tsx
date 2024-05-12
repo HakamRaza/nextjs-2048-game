@@ -2,7 +2,7 @@ import { useContext } from "react";
 
 // local files
 import { GameContext } from "@/provider/game-context";
-import styles from "@/style/score.css";
+import styles from "@/style/score.module.css";
 
 export default function Score() {
 

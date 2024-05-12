@@ -2,7 +2,7 @@ import { useCallback, useContext, useEffect, useRef } from "react";
 
 // local files
 import { Tile as TileType } from "@/type/tile-type";
-import styles from "@/style/board.css";
+import styles from "@/style/board.module.css";
 import { GameContext } from "@/provider/game-context";
 import MobileSwiper, { SwipeInput } from "./mobile-swipe";
 import Tile from "./tile";

@@ -9,7 +9,7 @@ import {
     tileCountPerDimension,
 } from "@/constant";
 import { Tile as TileType } from "@/type/tile-type";
-import styles from "@/styles/tile.css";
+import styles from "@/style/tile.module.css";
 
 export default function Tile({ position, value }: TileType) {
     const isWideScreen = useMediaQuery({ minWidth: 512 });

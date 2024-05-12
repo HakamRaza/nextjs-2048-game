@@ -1,6 +1,6 @@
 import type { AppProps } from "next/app";
 import GameProvider from "@/provider/game-context";
-import "@/styles/globals.css";
+import "@/style/global.css";
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
